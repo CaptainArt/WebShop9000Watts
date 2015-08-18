@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #383838;
+	font-family: Tahoma;
+	background: linear-gradient(to bottom, #383838,#FFFFFF);
+}
+
+#autorizacija{
+	text-decoration: none;
+	color: black;
+}
+
+#registracija{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	width: inherit;
+	height: inherit;
+}
+
+#page{
+	width: 1200px;
+	height: 845px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#header{
+	width: inherit;
+	height: 150px;
+}
+
+#HeaderTop{
+	width: inherit;
+	height: 100px;
+	background-color: #FFF5F5;
+}
+
+.HeaderTopBlock{
+	width: 400px;
+	float: left;
+	background-color: #FFF5F5;
+}
+
+#HeaderTopLeft{
+	height: inherit;
+}
+
+#HeaderTopCenter{
+	height: 23px;
+	margin-top: 40px;
+}
+
+#HeaderTopCenterAutorizacija{
+	height: inherit;
+	width: 190px;	
+	font-size: 100%;
+	float: left;
+	text-align: right;
+}
+
+#BetweenAutorizacijaRegistracija{
+	height: inherit;
+	width: 20px;
+	float: left;
+	text-align: center;
+}
+
+#HeaderTopCenterRegistracija{
+	height: inherit;
+	width: 190px;
+	font-size: 100%;
+	float: left;
+	text-align: left;
+}
+
+#HeaderTopRight{
+	height: 23px;
+	margin-top: 38px;
+	text-align: center;
+}
+
+.flag{
+	width: 35px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#HeaderFooter{
+	width: inherit;
+	height: 50px;
+	background-color: #FFC285;
+}
+
+.HeaderFooterButtons{
+	height: 23px;
+	width: 169px;
+	float: left;
+	margin-top: 15px;
+	border-right: 1px solid black;
+	border-color: #FF704D;
+	text-align: center;
+	font-size: large;
+	background-color: #FFC285;
+}
+
+#HeaderFooterButtonsPrecuSanemsana{
+	width: 177px;
+}
+
+#HeaderFooterButtonsKontakti{
+	border-right: none;
+}
+
+.HeaderFooterButtonsHref{
+	text-decoration: none;
+	color: black;
+}
+
+#Content{
+	width: inherit;
+	height: 600px;
+	margin-top: 15px;
+}
+
+#ContentCenter{
+	width: 935px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+}
+
+#ContentCenterHeader{
+	width: inherit;
+	height: 100px;
+	background-color: #B2FF99;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#ContentCenterFooter{
+	width: inherit;
+	height: 500px;
+	background-color: #FFFFBF;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#Footer{
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 935px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 3px #999999;
+	background-color: #CCE6FF;
+}
+
+#FooterContent{
+	width: 144px;
+	height: 20px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCE6FF;
+}

@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #383838;
+	font-family: Tahoma;
+	background: linear-gradient(to bottom, #383838,#FFFFFF);
+}
+
+#autorizacija{
+	text-decoration: none;
+	color: black;
+}
+
+#registracija{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	width: inherit;
+	height: inherit;
+}
+
+#Page{
+	width: 1200px;
+	height: 1545px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#Header{
+	width: inherit;
+	height: 150px;
+}
+
+#HeaderTop{
+	width: inherit;
+	height: 100px;
+	background-color: #FFF5F5;
+}
+
+.HeaderTopBlock{
+	width: 400px;
+	float: left;
+	background-color: #FFF5F5;
+}
+
+#HeaderTopLeft{
+	height: inherit;
+}
+
+#HeaderTopCenter{
+	height: 23px;
+	margin-top: 40px;
+}
+
+#HeaderTopCenterAutorizacija{
+	height: inherit;
+	width: 190px;	
+	font-size: 100%;
+	float: left;
+	text-align: right;
+}
+
+#BetweenAutorizacijaRegistracija{
+	height: inherit;
+	width: 20px;
+	float: left;
+	text-align: center;
+}
+
+#HeaderTopCenterRegistracija{
+	height: inherit;
+	width: 190px;
+	font-size: 100%;
+	float: left;
+	text-align: left;
+}
+
+#HeaderTopRight{
+	height: 23px;
+	margin-top: 38px;
+	text-align: center;
+}
+
+.Flag{
+	width: 35px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#HeaderFooter{
+	width: inherit;
+	height: 50px;
+	background-color: #FFC285;
+}
+
+.HeaderFooterButtons{
+	height: 23px;
+	width: 169px;
+	float: left;
+	margin-top: 15px;
+	border-right: 1px solid black;
+	border-color: #FF704D;
+	text-align: center;
+	font-size: large;
+	background-color: #FFC285;
+}
+
+#HeaderFooterButtonsPrecuSanemsana{
+	width: 177px;
+}
+
+#HeaderFooterButtonsKontakti{
+	border-right: none;
+}
+
+.HeaderFooterButtonsHref{
+	text-decoration: none;
+	color: black;
+}
+
+#Content{
+	width: inherit;
+	height: 1300px;
+	margin-top: 15px;
+	position: absolute;
+	z-index: 1;
+}
+
+.CategoriesBlocks{
+	background-color: #66CCFF;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	position: absolute;
+	z-index: 2;
+	border-radius: 0px 7px 7px 0px;
+	text-align: center;
+}
+
+.CategoriesBlocksHref{
+	color: black;
+	font-size: 90%;
+}
+
+#DatoriBlock{
+	height: 137px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 37px;
+	display: none;
+}
+
+#MobilieTelefoniBlock{
+	height: 138px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 68px;
+	display: none;
+}
+
+#TelevizoriBlock{
+	height: 101px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 99px;
+	display: none;
+}
+
+#FotoVideoBlock{
+	height: 135px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 130px;
+	display: none;
+}
+
+#ProgrammaturaBlock{
+	height: 138px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 161px;
+	display: none;
+}
+
+#VideospelesBlock{
+	height: 100px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 192px;
+	display: none;
+}
+
+#SadzivesTehnikaBlock{
+	height: 135px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 223px;
+	display: none;
+}
+
+#BirojaTehnikaBlock{
+	height: 137px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 254px;
+	display: none;
+}
+
+#ApgaismojumsBlock{
+	height: 139px;
+	width: 200px;
+	margin-left: 221px;
+	margin-top: 285px;
+	display: none;
+}
+
+#EnergijasAvotiBlock{
+	height: 139px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 316px;
+	display: none;
+}
+
+#AutomasinasPiederumiBlock{
+	height: 139px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 347px;
+	display: none;
+}
+
+#ContentLeft{
+	width: 200px;
+	height: 1300px;
+	float: left;
+	margin-left: 20px;
+}
+
+#ContentLeftUp{
+	width: 200px;
+	height: 500px;
+	background-color: #FFFFBF;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+	border: 1px solid black;
+}
+
+#ContentLeftDown{
+	width: 200px;
+	height: 780px;
+	margin-top: 17px;
+	background-color: #FFFFBF;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+	border: 1px solid black;
+}
+
+#Kategorijas{
+	width: inherit;
+	height: 30px;
+	text-align: center;
+	background-color: #B2FF99;
+	font-size: x-large;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Categories{
+	width: inherit;
+	height: 20px;
+	background-color: #FFCCE0;
+	margin-top: 5px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#ContentRight{
+	width: 935px;
+	height: 1300px;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+}
+
+#ContentRightHeader{
+	width: inherit;
+	height: 100px;
+	background-color: #B2FF99;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#ContentRightHeaderLogo{
+	height: 60px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ImgContentRightHeaderLogo{
+	margin-top: 20px;
+}
+
+#ContentRightFooter{
+	width: inherit;
+	height: 1200px;
+	background-color: #FFFFBF;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.CheapProduct{
+	width: 245px;
+	height: 350px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	background-color: #FFFFFF;
+}
+
+#CheapProductFoto{
+	width: inherit;
+	height: 200px;
+}
+
+.CheapProductContent1{
+	width: inherit;
+	height: 20px;
+	background-color: #B2FFB2;
+}
+
+.CheapProductContent2{
+	width: inherit;
+	height: 20px;
+	background-color: #B2E6FF;
+}
+
+#Footer{
+	margin-top: 1335px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 3px #999999;
+	background-color: #CCE6FF;
+}
+
+#FooterContent{
+	width: 190px;
+	height: 20px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCE6FF;
+}

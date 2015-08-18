@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #383838;
+	font-family: Tahoma;
+	background: linear-gradient(to bottom, #383838,#FFFFFF);
+}
+
+#page{
+	width: 1200px;
+	height: 602px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#Content{
+	width: inherit;
+	height: 525px; 
+	position: absolute;
+	z-index: 2;
+}
+
+.CategoriesBlocks{
+	background-color: #66CCFF;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	position: absolute;
+	z-index: 3;
+	border-radius: 0px 7px 7px 0px;
+	text-align: center;
+}
+
+.CategoriesBlocksHref{
+	color: black;
+	font-size: 90%;
+}
+
+#DatoriBlock{
+	height: 137px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 37px;
+	display: none;
+}
+
+#MobilieTelefoniBlock{
+	height: 138px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 68px;
+	display: none;
+}
+
+#TelevizoriBlock{
+	height: 101px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 99px;
+	display: none;
+}
+
+#FotoVideoBlock{
+	height: 135px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 130px;
+	display: none;
+}
+
+#ProgrammaturaBlock{
+	height: 138px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 161px;
+	display: none;
+}
+
+#VideospelesBlock{
+	height: 100px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 192px;
+	display: none;
+}
+
+#SadzivesTehnikaBlock{
+	height: 135px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 223px;
+	display: none;
+}
+
+#BirojaTehnikaBlock{
+	height: 137px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 254px;
+	display: none;
+}
+
+#ApgaismojumsBlock{
+	height: 139px;
+	width: 200px;
+	margin-left: 221px;
+	margin-top: 285px;
+	display: none;
+}
+
+#EnergijasAvotiBlock{
+	height: 139px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 316px;
+	display: none;
+}
+
+#AutomasinasPiederumiBlock{
+	height: 139px;
+	width: 150px;
+	margin-left: 221px;
+	margin-top: 347px;
+	display: none;
+}
+
+#ContentLeft{
+	width: 200px;
+	height: 523px;
+	background-color: #FFFFBF;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+}
+
+#kategorijas{
+	width: inherit;
+	height: 30px;
+	text-align: center;
+	background-color: #B2FF99;
+	font-size: x-large;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.categories{
+	width: inherit;
+	height: 20px;
+	background-color: #FFCCE0;
+	margin-top: 5px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#ContentRight{
+	width: 935px;
+	height: 523px;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px 3px #999999;
+}
+
+#ContentRightHeader{
+	width: inherit;
+	height: 100px;
+	background-color: #B2FF99;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#ContentRightHeaderLogo{
+	height: 60px;
+	width: 286px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ImgContentRightHeaderLogo{
+	margin-top: 25px;
+}
+
+#ContentRightFooter{
+	width: inherit;
+	height: 423px;
+	background-color: #FFFFBF;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#InputForms{
+	width: 430px;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.InputBlock{
+	width: inherit;
+	height: 25px;
+	text-align: right;
+	font-size: 110%;
+}
+
+.InputText{
+	width: 250px;
+	height: 20px;
+}
+
+#InputBlockButtons{
+	margin-right: 105px;
+}
+
+.InputButtons{
+	width: 69px;
+	height: 25px;
+}
+
+#ButtonSubmit{
+	background: #E6E6E6;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#ButtonReset{
+	background: #E6E6E6;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#Footer{
+	margin-top: 542px;
+	height: 60px;
+	margin-left: 20px;
+	width: 1160px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 3px #999999;
+	background-color: #CCE6FF;
+	position: absolute;
+	z-index: 1;
+}
+
+#FooterContent{
+	width: 190px;
+	height: 20px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCE6FF;
+}
